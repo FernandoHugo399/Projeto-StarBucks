@@ -5,6 +5,46 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
 }
 
+html,body{
+    height: 100%;
+}
+
+.first-container{
+    width: 100%;
+}
+
+.img-first-container{
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 12%;
+}
+
+.clear{
+    clear: both;
+}
+
+.menu-first-container{
+    position: relative;
+    float: right;
+    top: 45px;
+    right: 14%;
+}
+
+.menu-first-container ul {
+    list-style-type: none;
+}
+
+.menu-first-container ul li{
+    display: inline-block;
+}
+
+.menu-first-container ul li a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
