@@ -74,3 +74,19 @@ html,body{
     
     
 }
+
+.icons-circle{
+    position: relative;
+    float: right;
+    top: 10vw;
+    
+}
+
+.icon-circle{
+    padding: 13px 2px;
+}
+
+.facebook-icon a img{
+    width: 30px;
+}
+
