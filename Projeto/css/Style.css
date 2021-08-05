@@ -90,3 +90,38 @@ html,body{
     width: 30px;
 }
 
+.container-main{
+    width: 76%;
+    margin:  0 auto;
+}
+
+.title-main h1{
+    font-size: 50px;
+    margin-top: -25px;
+}
+
+.title-main h1::after{
+    content: " StarBucks";
+    color: #017143;
+}
+
+.content-main{
+    margin-top: 20px;
+    max-width: 800px;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.button-main{
+    margin-top: 20px;
+}
+
+.button-main a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #017143;
+    padding: 8px 14px;
+    border-radius: 15px;
+}
