@@ -121,7 +121,101 @@ html,body{
     color: white;
     font-size: 15px;
     text-decoration: none;
-    background-color: #017143;
+    background-color: #036b40;
     padding: 8px 14px;
     border-radius: 15px;
+    border: 2px solid #01331d;
+}
+
+@media screen and (max-width:1260px){
+    .content-main{
+        max-width: 650px;
+    }
+
+    .title-main h1{
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width:1060px){
+    .content-main{
+        max-width: 550px;
+    }
+
+    .title-main h1{
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width:960px){
+    
+    .img-circle > img{
+        display: none;
+        
+    }
+
+    .content-main{
+        max-width: 650px;
+    }
+}
+
+
+@media screen and (max-width:880px) {
+    .title-main h1::after{
+        color: black;
+    }
+    .title-main h1{
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width:612px) {
+    .img-first-container{
+        float: none;
+        display: inline-block;
+        top: 20px;
+        left: calc(50% - 50px);
+    }
+
+    .menu-first-container{
+        float: none;
+        top: 45px;
+        text-align: center;
+        left: 0px;
+    }
+
+    .icons-circle{
+        position: relative;
+        float: right;
+        top: 5vw;
+        
+    }
+
+    .facebook-icon a img{
+        width: 20px;
+    }
+
+    .instagran-icon a img{
+        width: 25px;
+    }
+
+    .twitter-icon a img{
+        width: 25px;
+    }
+    
+    .title-main h1{
+        font-size: 40px;
+    }
+
+    .menu-first-container ul li{
+        display: block;
+        padding: 10px 0;
+        margin: 2px 0;
+        
+    }
+
+    .circle{
+        display: none;
+    }
+    
 }
