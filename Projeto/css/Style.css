@@ -98,6 +98,7 @@ html,body{
 .title-main h1{
     font-size: 50px;
     margin-top: -25px;
+    max-width: 600px;
 }
 
 .title-main h1::after{
@@ -125,6 +126,11 @@ html,body{
     padding: 8px 14px;
     border-radius: 15px;
     border: 2px solid #01331d;
+    display: inline-block;
+}
+
+.icons-main{
+    display: none;
 }
 
 @media screen and (max-width:1260px){
@@ -184,29 +190,17 @@ html,body{
         left: 0px;
     }
 
-    .icons-circle{
-        position: relative;
-        float: right;
-        top: 5vw;
-        
+    .icon-circle{
+        display: none;
     }
-
-    .facebook-icon a img{
-        width: 20px;
-    }
-
-    .instagran-icon a img{
-        width: 25px;
-    }
-
-    .twitter-icon a img{
-        width: 25px;
-    }
-    
+ 
     .title-main h1{
         font-size: 40px;
     }
 
+    .menu-first-container{
+        height: 250px;
+    }
     .menu-first-container ul li{
         display: block;
         padding: 10px 0;
@@ -218,4 +212,36 @@ html,body{
         display: none;
     }
     
+    .icons-main{
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .fck-icon a img{
+        width: 15px;
+    }
+
+    .insta-icon a img{
+        width: 30px;
+    }
+    
+    .tt-icon a img{
+        width: 35px;
+    }
+
+    .icon-main{
+        margin-left: 10px;
+    }
+
+    .icons-main{
+        position: relative;
+        top: -57px;
+        float: right;
+    }
+}
+
+@media screen and (max-width:560px){
+    .title-main h1{
+        font-size: 34px;
+    }
 }
