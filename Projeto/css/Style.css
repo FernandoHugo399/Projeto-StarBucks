@@ -298,4 +298,29 @@ html,body{
     .container-main{
         margin-top: -100px;
     }
+    .circle{
+        
+        
+        height: 30vw;
+        width: 30vw;
+        position: absolute;
+        border-radius: 100% 0 0 0;
+        right: 0;
+        bottom: 0;
+        min-height: 80vh;
+        min-width: 500px;
+    }
+
+    .img-circle > img{
+        width: 33%;
+        position: relative;
+        right: -110px;
+        
+    }
+}
+
+@media screen and (max-height:688px) and (max-width:612px){
+    .container-main{
+        margin-top: 0px;
+    }
 }
