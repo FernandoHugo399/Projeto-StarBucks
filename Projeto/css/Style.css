@@ -11,6 +11,10 @@ html,body{
     height: 100%;
 }
 
+.background{
+    height: 100%;
+}
+
 .first-container{
     width: 100%;
 }
@@ -153,7 +157,7 @@ html,body{
     }
 }
 
-@media screen and (max-width:960px){
+@media screen and (max-width:986px){
     
     .img-circle > img{
         display: none;
@@ -166,13 +170,11 @@ html,body{
 }
 
 
-@media screen and (max-width:880px) {
+@media screen and (max-width:742px) {
     .title-main h1::after{
         color: black;
     }
-    .title-main h1{
-        font-size: 44px;
-    }
+    
 }
 
 @media screen and (max-width:612px) {
@@ -238,10 +240,62 @@ html,body{
         top: -57px;
         float: right;
     }
+
+    .background{
+        background-color: #026e41;
+    }
+
+    .sec-container-main{
+        background-color: #026e41;
+    }
+}
+
+@media screen and (max-width:580px){
+    .title-main h1{
+        font-size: 38px;
+    }
 }
 
 @media screen and (max-width:560px){
     .title-main h1{
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .title-main h1{
         font-size: 34px;
+    }
+}
+
+@media screen and (max-width:490px){
+    .title-main h1{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:462px){
+    .title-main h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:435px){
+    .title-main h1{
+        font-size: 36px;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:385px){
+    .title-main h1{
+        font-size: 30px;
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-height:688px){
+    .container-main{
+        margin-top: -100px;
     }
 }
