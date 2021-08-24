@@ -198,6 +198,8 @@ html,body{
  
     .title-main h1{
         font-size: 40px;
+        text-align: center;
+        width: 100%;
     }
 
     .menu-first-container{
@@ -265,6 +267,7 @@ html,body{
 @media screen and (max-width:520px){
     .title-main h1{
         font-size: 34px;
+        
     }
 }
 
@@ -283,14 +286,12 @@ html,body{
 @media screen and (max-width:435px){
     .title-main h1{
         font-size: 36px;
-        padding-left: 20px;
     }
 }
 
 @media screen and (max-width:385px){
     .title-main h1{
         font-size: 30px;
-        padding-left: 10%;
     }
 }
 
