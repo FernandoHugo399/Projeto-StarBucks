@@ -1,4 +1,4 @@
-# Projeto-StarBucks
+# StarBucks-Project
 ![starbucks](https://user-images.githubusercontent.com/87580316/128761942-bb716385-da39-42ac-b213-96b05475338a.jpg)
 ---
 ## :mag: About 
